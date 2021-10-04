@@ -17,7 +17,7 @@ jobs:
         with:
           args: README.md --accept 200,204,429 --exclude languagetool.org --exclude https://www.ptsecurity.com --exclude https://github.com/collections --exclude https://github.com/sponsors
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.Jie_0Y__TOKEN}}
         
       - name: Create Issue From File
         uses: peter-evans/create-issue-from-file@v2
