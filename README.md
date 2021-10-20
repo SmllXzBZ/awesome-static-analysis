@@ -560,6 +560,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Fasterer](https://github.com/DamirSvrtan/fasterer) - Common Ruby idioms checker.
 - [flay](https://ruby.sadi.st/Flay.html) - Flay analyzes code for structural similarities.
 - [flog](https://ruby.sadi.st/Flog.html) - Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
+- [Fukuzatsu](https://github.com/CoralineAda/fukuzatsu) - A tool for measuring code complexity in Ruby class files. Its analysis generates scores based on cyclomatic complexity algorithms with no added "opinions".
 - [laser](https://github.com/michaeledgar/laser) :warning: - Static analysis and style linter for Ruby code.
 - [pelusa](https://github.com/codegram/pelusa) - Static analysis Lint-type tool to improve your OO Ruby code.
 - [Querly](https://github.com/soutaro/querly) - Pattern Based Checking Tool for Ruby.
@@ -611,6 +612,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [sqlcheck](https://github.com/jarulraj/sqlcheck) - Automatically identify anti-patterns in SQL queries.
 - [SQLFluff](https://www.sqlfluff.com/) - Multiple dialect SQL linter and formatter.
 - [sqlint](https://github.com/purcell/sqlint) - Simple SQL linter.
+- [squawk](https://squawkhq.com) - Linter for PostgreSQL, focused on migrations. Prevents unexpected downtime caused by database migrations and encourages best practices around Postgres schemas and SQL.
 - [tsqllint](https://github.com/tsqllint/tsqllint) - T-SQL-specific linter.
 - [TSqlRules](https://github.com/ashleyglee/TSqlRules) :warning: - TSQL Static Code Analysis Rules for SQL Server.
 - [Visual Expert](https://www.visual-expert.com) :copyright: - Code analysis for PowerBuilder, Oracle, and SQL Server Explores, analyzes, and documents Code 
@@ -933,6 +935,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [gulp-bootlint](https://github.com/tschortsch/gulp-bootlint) - A gulp wrapper for [Bootlint](https://github.com/twbs/bootlint), the HTML linter for Bootstrap projects.
 - [HTML Inspector](https://github.com/philipwalton/html-inspector) :warning: - HTML Inspector is a code quality tool to help you and your team write better markup.
 - [HTML Tidy](http://www.html-tidy.org) - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
+- [HTML-Validate](https://html-validate.org/) - Offline HTML5 validator.
 - [HTMLHint](https://htmlhint.com) - A Static Code Analysis Tool for HTML.
 - [Nu Html Checker](https://validator.github.io/validator/) - Helps you catch problems in your HTML/CSS/SVG
 
@@ -1051,6 +1054,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 <h2 id="vue">Vue.js</h2>
 
+- [HTML-Validate](https://html-validate.org/) - Offline HTML5 validator.
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) - Vue tooling for VS Code, powered by vls (vue language server). Vetur has support for formatting embedded HTML, CSS, SCSS, JS, TypeScript, and more. Vetur only has a "whole document formatter" and cannot format arbitrary ranges.
 
 
