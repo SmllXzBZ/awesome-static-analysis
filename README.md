@@ -242,7 +242,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="coffeescript">CoffeeScript</h2>
 
-- [coffeelint](http://www.coffeelint.org) :warning: - A style checker that helps keep CoffeeScript code clean and consistent.
+- [coffeelint](http://www.coffeelint.org) - A style checker that helps keep CoffeeScript code clean and consistent.
 
 
 <h2 id="crystal">Crystal</h2>
@@ -992,7 +992,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 <h2 id="package">Packages</h2>
 
-- [lintian](https://lintian.debian.org) :warning: - Static analysis tool for Debian packages.
+- [lintian](https://lintian.debian.org) - Static analysis tool for Debian packages.
 - [rpmlint](https://github.com/rpm-software-management/rpmlint) - Tool for checking common errors in rpm packages.
 
 
