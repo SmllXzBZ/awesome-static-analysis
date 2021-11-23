@@ -19,6 +19,9 @@
 - name: Ada
   tag: ada
   type: language
+- name: Angular
+  tag: angular
+  type: other
 - name: Ansible
   tag: ansible
   type: other
@@ -106,6 +109,9 @@
 - name: Elm
   tag: elm
   type: language
+- name: Embedded Ruby (a.k.a. ERB, eRuby)
+  tag: erb
+  type: other
 - name: Erlang
   tag: erlang
   type: language
@@ -328,6 +334,9 @@
 - name: VBScript
   tag: vbscript
   type: language
+- name: Verilog/SystemVerilog
+  tag: verilog
+  type: language  
 - name: VHDL
   tag: vhdl
   type: language
