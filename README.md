@@ -24,6 +24,7 @@ This project would not be possible without the generous support of our sponsors.
     <td><a href="https://deepcode.ai"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/sponsors/deepcode.png" /></a></td>
     <td><a href="https://codescene.io/"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/sponsors/codescene.svg" /></a></td>
     <td><a href="https://r2c.dev/"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/sponsors/r2c.svg" /></a></td>
+    <td><a href="https://codiga.io/"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/sponsors/codiga.svg" /></a></td>
   </tr>
 </table>
 
@@ -131,6 +132,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Webassembly](#wasm)
 - [Writing](#writing)
 - [YAML](#yaml)
+- [git](#git)
 
 ---
 
@@ -704,7 +706,6 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [coala](https://coala.io) - Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default.
 - [Cobra](http://spinroot.com/cobra) :copyright: - Structural source code analyzer by NASA's Jet Propulsion Laboratory.
 - [Codacy](https://www.codacy.com) :copyright: - Code Analysis to ship Better Code, Faster.
-- [Code Inspector](https://www.code-inspector.com) :copyright: - Code quality and technical debt management platform that supports 10+ languages.
 - [Code Intelligence](https://www.code-intelligence.com) :copyright: - CI/CD-agnostic DevSecOps platform which combines industry-leading fuzzing engines for finding bugs and visualizing code coverage
 - [Codeac](https://www.codeac.io/?ref=awesome-static-analysis) :copyright: - Automated code review tool integrates with GitHub, Bitbucket and GitLab (even self-hosted). Available for JavaScript, TypeScript, Python, Ruby, Go, PHP, Java, Docker, and more. (open-source free)
 - [codeburner](http://groupon.github.io/codeburner) :warning: - Provides a unified interface to sort and act on the issues it finds.
@@ -719,6 +720,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [CodeScan](https://www.codescan.io/) :copyright: - Code Quality and Security for Salesforce Developers. Made exclusively for the Salesforce platform, CodeScan’s code analysis solutions provide you with total visibility into your code health.
 - [CodeScene](https://codescene.com) :copyright: - CodeScene is a quality visualization tool for software. Prioritize technical debt, detect delivery risks, and measure organizational aspects. Fully automated.
 - [CodeSonar from GrammaTech](https://www.grammatech.com/products/codesonar) :copyright: - Advanced, whole program, deep path, static analysis of C, C++, Java and C# with easy-to-understand explanations and code and path visualization.
+- [Codiga](https://www.codiga.io) :copyright: - Automated Code Reviews and Technical Debt management platform that supports 12+ languages.
 - [Corrode](https://github.com/jameysharp/corrode) :warning: - Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors. Superseded by C2Rust.
 - [Coverity](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) :copyright: - Synopsys Coverity supports 20 languages and over 70 frameworks including Ruby on rails, Scala, PHP, Python, JavaScript, TypeScript, Java, Fortran, C, C++, C#, VB.NET.
 - [cqc](https://github.com/xcatliu/cqc) :warning: - Check your code quality for js, jsx, vue, css, less, scss, sass and styl files.
@@ -1025,7 +1027,6 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 <h2 id="security">Security/SAST</h2>
 
-- [Attackflow Extension](https://www.attackflow.com/Extension) :copyright: - Attackflow plugin for Visual Studio, which enables developers to find critical security bugs at real time in the source code without any prior knowledge.
 - [AzSK](https://azsk.azurewebsites.net/) - Secure DevOps kit for Azure (AzSK) provides security IntelliSense, Security Verification Tests (SVTs), CICD scan vulnerabilities, compliance issues, and infrastructure misconfiguration in your infrastructure-as-code. Supports Azure via ARM.
 - [Datree](https://datree.io/) - A CLI tool to prevent Kubernetes misconfigurations by ensuring that manifests and Helm charts follow best practices as well as your organization’s policies
 - [Gitleaks](https://github.com/zricethezav/gitleaks) - A SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos.
@@ -1102,6 +1103,11 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [Spectral](https://stoplight.io/open-source/spectral) - A flexible JSON/YAML linter, without of the box support for OpenAPI v2/v3 and AsyncAPI v2.
 - [yamllint](https://yamllint.readthedocs.io) - Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
+
+
+<h2 id="git">git</h2>
+
+- [commitlint](https://commitlint.js.org) - checks if your commit messages meet the conventional commit format
 
 
 ## More Collections
