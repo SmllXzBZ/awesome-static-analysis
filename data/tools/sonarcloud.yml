@@ -19,7 +19,11 @@ tags:
 license: proprietary
 types:
   - service
-homepage: 'https://sonarcloud.io'
+homepage: https://sonarcloud.io
 description: >-
-  Multi-language cloud-based static code analysis. History, trends, security
-  hot-spots, pull request analysis and more. Free for open source.
+  Multi-language cloud-based static code analysis. History, trends, security hot-spots,
+  pull request analysis and more. Free for open source.
+pricing: https://sonarcloud.io/pricing
+plans:
+  free: false
+  oss: true

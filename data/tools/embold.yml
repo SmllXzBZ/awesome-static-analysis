@@ -14,8 +14,12 @@ tags:
 license: proprietary
 types:
   - service
-homepage: 'https://embold.io'
+homepage: https://embold.io
 description: >-
-  Intelligent software analytics platform that identifies design issues, code
-  issues, duplication and metrics. Supports Java, C, C++, C#, JavaScript,
-  TypeScript, Python, Go, Kotlin and more.
+  Intelligent software analytics platform that identifies design issues, code issues,
+  duplication and metrics. Supports Java, C, C++, C#, JavaScript, TypeScript, Python,
+  Go, Kotlin and more.
+pricing: https://embold.io/pricing
+plans:
+  free: true
+  oss: false

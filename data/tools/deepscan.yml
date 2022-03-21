@@ -6,7 +6,11 @@ tags:
 license: proprietary
 types:
   - cli
-homepage: 'https://deepscan.io'
+homepage: https://deepscan.io
 description: >-
-  An analyzer for JavaScript which targets runtime errors and quality issues
-  rather than coding conventions.
+  An analyzer for JavaScript which targets runtime errors and quality issues rather
+  than coding conventions.
+pricing: https://deepscan.io/pricing
+plans:
+  free: false
+  oss: true

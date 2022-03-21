@@ -5,15 +5,14 @@ use anyhow::Result;
 use chrono::{DateTime, Local, NaiveDateTime, Utc};
 use hubcaps::{Credentials, Github};
 use slug::slugify;
+use stats::StatsRaw;
 
 mod lints;
+pub mod stats;
 pub mod types;
 
-use std::{
-    collections::{BTreeMap, HashSet},
-    iter::FromIterator,
-};
-use types::{Catalog, Entry, ParsedEntry, Resource, Tag, Type};
+use std::{collections::BTreeMap, iter::FromIterator};
+use types::{Api, ApiEntry, Catalog, Entry, ParsedEntry, Tag, Type};
 
 fn valid(entry: &ParsedEntry, tags: &[Tag]) -> Result<()> {
     let lints = [lints::name, lints::min_one_tag];
@@ -108,33 +107,6 @@ pub fn create_catalog(entries: &[Entry], languages: &[Tag], other_tags: &[Tag]) 
     })
 }
 
-/// An entry of the machine-readable JSON out from the tool.
-///
-/// We use a different, de-normalized data format instead of the catalog, which
-/// keeps the information for each tool in a struct instead of grouping tools by
-/// tags.
-#[derive(Debug, Serialize, Deserialize)]
-pub struct ApiEntry {
-    /// The original entry name (not slugified)
-    name: String,
-    categories: HashSet<String>,
-    languages: Vec<String>,
-    other: Vec<String>,
-    licenses: Vec<String>,
-    types: HashSet<String>,
-    homepage: String,
-    source: Option<String>,
-    description: String,
-    discussion: Option<String>,
-    deprecated: Option<bool>,
-    resources: Option<Vec<Resource>>,
-    wrapper: Option<bool>,
-}
-
-/// The final API dataformat is a map where the key is the entry name and the
-/// value is the entry data, which makes searching for a tool's data easier
-type Api = BTreeMap<String, ApiEntry>;
-
 pub fn create_api(catalog: Catalog, languages: &[Tag], other_tags: &[Tag]) -> Result<Api> {
     let mut api_entries = BTreeMap::new();
 
@@ -186,6 +158,8 @@ pub fn create_api(catalog: Catalog, languages: &[Tag], other_tags: &[Tag]) -> Re
             types: entry.types,
             homepage: entry.homepage,
             source: entry.source,
+            pricing: entry.pricing,
+            plans: entry.plans,
             description: entry.description,
             discussion: entry.discussion,
             deprecated: entry.deprecated,
@@ -215,4 +189,18 @@ mod tests {
             "it-has-dashes".to_string()
         );
     }
+}
+
+pub fn format_stats(stats: StatsRaw) -> BTreeMap<String, String> {
+    stats
+        .data
+        .result
+        .into_iter()
+        .map(|r| {
+            (
+                r.metric.path.trim_start_matches("/tool/").to_string(),
+                r.value.1,
+            )
+        })
+        .collect()
 }

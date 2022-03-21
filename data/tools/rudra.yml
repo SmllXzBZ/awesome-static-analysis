@@ -3,11 +3,11 @@ categories:
   - linter
 tags:
   - rust
-license: proprietary
+license: Apache
 types:
   - cli
-source: 'https://github.com/sslab-gatech/Rudra'
-homepage: 'https://github.com/sslab-gatech/Rudra'
+source: https://github.com/sslab-gatech/Rudra
+homepage: https://github.com/sslab-gatech/Rudra
 description: >-
-  Rust Memory Safety & Undefined Behavior Detection.
-  It is capable of analyzing single Rust packages as well as all the packages on crates.io.
+  Rust Memory Safety & Undefined Behavior Detection. It is capable of analyzing single
+  Rust packages as well as all the packages on crates.io.
