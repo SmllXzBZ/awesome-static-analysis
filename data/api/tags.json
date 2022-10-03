@@ -383,6 +383,11 @@
       "tag_type": "Other"
     },
     {
+      "name": "Archive",
+      "tag": "archive",
+      "tag_type": "Other"
+    },
+    {
       "name": "Azure Resource Manager",
       "tag": "arm",
       "tag_type": "Other"
