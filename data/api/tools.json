@@ -1528,6 +1528,31 @@
     "resources": null,
     "wrapper": null
   },
+  "cargo-unused-features": {
+    "name": "cargo-unused-features",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "rust"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/TimonPost/cargo-unused-features",
+    "source": "https://github.com/TimonPost/cargo-unused-features",
+    "pricing": null,
+    "plans": null,
+    "description": "Find potential unused enabled feature flags and prune them. You can generate a simple HTML report from the json to make it easier to inspect results.\nIt removes a feature of a dependency and then compiles the project to see if it still compiles. If it does, the feature flag can possibly be removed, but it can be a false-positve.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "wrapper": null
+  },
   "cast-highlight": {
     "name": "CAST Highlight",
     "categories": [
@@ -1648,8 +1673,6 @@
     ],
     "languages": [],
     "other": [
-      "configmanagement",
-      "container",
       "kubernetes"
     ],
     "licenses": [
@@ -1839,6 +1862,31 @@
     "pricing": null,
     "plans": null,
     "description": "A linter for LaTex which catches some typographic errors LaTeX oversees.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "wrapper": null
+  },
+  "churn": {
+    "name": "Churn",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "ruby"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/danmayer/churn",
+    "source": "https://github.com/danmayer/churn",
+    "pricing": null,
+    "plans": null,
+    "description": "A Project to give the churn file, class, and method for a project for a given checkin. Over time the tool adds up the history of churns to give the number of times a file, class, or method is changing during the life of a project.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -2194,8 +2242,6 @@
     ],
     "languages": [],
     "other": [
-      "configmanagement",
-      "container",
       "kubernetes"
     ],
     "licenses": [
@@ -3831,8 +3877,6 @@
     ],
     "languages": [],
     "other": [
-      "configmanagement",
-      "container",
       "kubernetes",
       "security"
     ],
@@ -3978,19 +4022,10 @@
     "source": null,
     "pricing": null,
     "plans": null,
-    "description": "DeepCode finds bugs, security vulnerabilities, performance and API issues based on AI. DeepCode's speed of analysis allow us to analyse your code in real time and deliver results when you hit the save button in your IDE. Supported languages are Java, C/C++, JavaScript, Python, and TypeScript. Integrations with GitHub, BitBucket and Gitlab.",
+    "description": "DeepCode was acquired by Snyk is now Snyk Code.",
     "discussion": null,
     "deprecated": null,
-    "resources": [
-      {
-        "title": "Intro to DeepCode",
-        "url": "https://www.youtube.com/watch?v=5ThvYN3nWcg"
-      },
-      {
-        "title": "How DeepCode addresses False Positives",
-        "url": "https://www.youtube.com/watch?v=d-fvZ83O_es"
-      }
-    ],
+    "resources": null,
     "wrapper": null
   },
   "deepscan": {
@@ -4924,6 +4959,43 @@
       "oss": false
     },
     "description": "Intelligent software analytics platform that identifies design issues, code issues, duplication and metrics. Supports Java, C, C++, C#, JavaScript, TypeScript, Python, Go, Kotlin and more.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "wrapper": null
+  },
+  "emerge": {
+    "name": "emerge",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "kotlin",
+      "objectivec",
+      "php",
+      "python",
+      "ruby",
+      "swift",
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli",
+      "web"
+    ],
+    "homepage": "https://github.com/glato/emerge",
+    "source": "https://github.com/glato/emerge",
+    "pricing": null,
+    "plans": null,
+    "description": "Emerge is a source code and dependency visualizer that can be used to gather insights about source code structure, metrics, dependencies and complexity of software projects. After scanning the source code of a project it provides you an interactive web interface to explore and analyze your project by using graph structures.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -7122,6 +7194,34 @@
     "resources": null,
     "wrapper": null
   },
+  "htmlbeautifier": {
+    "name": "htmlbeautifier",
+    "categories": [
+      "formatter"
+    ],
+    "languages": [
+      "ruby"
+    ],
+    "other": [
+      "erb",
+      "html"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/threedaymonk/htmlbeautifier",
+    "source": "https://github.com/threedaymonk/htmlbeautifier",
+    "pricing": null,
+    "plans": null,
+    "description": "A normaliser/beautifier for HTML that also understands embedded Ruby. Ideal for tidying up Rails templates.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "wrapper": null
+  },
   "htmlhint": {
     "name": "HTMLHint",
     "categories": [
@@ -7829,6 +7929,31 @@
     "resources": null,
     "wrapper": null
   },
+  "klint": {
+    "name": "klint",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "kubernetes"
+    ],
+    "licenses": [
+      "Apache-2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/uswitch/klint",
+    "source": "https://github.com/uswitch/klint",
+    "pricing": null,
+    "plans": null,
+    "description": "A tool that listens to changes in Kubernetes resources and runs linting rules against them. Identify and debug erroneous objects and nudge objects in line with the policies as both change over time. Klint helps us encode checks and proactively alert teams when they need to take action.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "wrapper": null
+  },
   "klocwork": {
     "name": "Klocwork",
     "categories": [
@@ -7941,8 +8066,6 @@
     ],
     "languages": [],
     "other": [
-      "configmanagement",
-      "container",
       "kubernetes"
     ],
     "licenses": [
@@ -7968,8 +8091,6 @@
     ],
     "languages": [],
     "other": [
-      "configmanagement",
-      "container",
       "kubernetes"
     ],
     "licenses": [
@@ -7982,7 +8103,7 @@
     "source": "https://github.com/stackrox/kube-linter",
     "pricing": null,
     "plans": null,
-    "description": "KubeLinter is a static analysis tool that checks Kubernetes YAML files  and Helm charts to ensure the applications represented in them adhere to best practices. ",
+    "description": "KubeLinter is a static analysis tool that checks Kubernetes YAML files  and Helm charts to ensure the applications represented in them adhere to best practices.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -7995,7 +8116,7 @@
     ],
     "languages": [],
     "other": [
-      "container"
+      "kubernetes"
     ],
     "licenses": [
       "MIT License"
@@ -8020,7 +8141,6 @@
     ],
     "languages": [],
     "other": [
-      "container",
       "kubernetes"
     ],
     "licenses": [
@@ -8051,7 +8171,7 @@
     ],
     "languages": [],
     "other": [
-      "container"
+      "kubernetes"
     ],
     "licenses": [
       "Apache-2.0 License"
@@ -8085,8 +8205,6 @@
     ],
     "languages": [],
     "other": [
-      "configmanagement",
-      "container",
       "kubernetes"
     ],
     "licenses": [
@@ -8661,6 +8779,31 @@
     "resources": null,
     "wrapper": null
   },
+  "lunasec": {
+    "name": "LunaSec",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "security"
+    ],
+    "licenses": [
+      "Apache License Version 2.0"
+    ],
+    "types": [
+      "service"
+    ],
+    "homepage": "https://www.lunasec.io",
+    "source": "https://github.com/lunasec-io/lunasec",
+    "pricing": null,
+    "plans": null,
+    "description": "Open Source AppSec platform that automatically notifies you the next time vulnerabilities like Log4Shell or node-ipc happen. Track your dependencies and builds in a centralized service.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "wrapper": null
+  },
   "maligned": {
     "name": "maligned",
     "categories": [
@@ -8958,6 +9101,31 @@
     "pricing": null,
     "plans": null,
     "description": "Tool to check the validity of Puppet metadata.json files.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "wrapper": null
+  },
+  "metricfu": {
+    "name": "MetricFu",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "ruby"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/metricfu/metric_fu",
+    "source": "https://github.com/metricfu/metric_fu",
+    "pricing": null,
+    "plans": null,
+    "description": "MetricFu is a set of tools to provide reports that show which parts of your code might need extra work.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -11671,7 +11839,7 @@
     "source": null,
     "pricing": "https://pvs-studio.com/en/order/license/",
     "plans": null,
-    "description": "A ([conditionally free](https://pvs-studio.com/en/order/open-source-license) for FOSS and individual developers) static analysis of C, C++, C# and Java code. For advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list). Supports CWE mapping, MISRA and CERT coding standards.",
+    "description": "A ([conditionally free](https://pvs-studio.com/en/order/open-source-license) for FOSS and individual developers) static analysis of C, C++, C# and Java code. For advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list). Supports CWE mapping, OWASP ASVS, MISRA, AUTOSAR and SEI CERT coding standards.",
     "discussion": null,
     "deprecated": null,
     "resources": [
@@ -12517,7 +12685,7 @@
       "linter"
     ],
     "languages": [
-      "java"
+      "javascript"
     ],
     "other": [
       "security"
@@ -12535,7 +12703,7 @@
       "free": true,
       "oss": false
     },
-    "description": "A source code analysis tool for detecting and managing Java security vulnerabilities.",
+    "description": "A source code analysis tool for detecting and managing JavaScript security vulnerabilities.",
     "discussion": null,
     "deprecated": null,
     "resources": [
@@ -12621,6 +12789,36 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "wrapper": null
+  },
+  "rezilion": {
+    "name": "Rezilion",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "security"
+    ],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "service"
+    ],
+    "homepage": "https://www.rezilion.com/",
+    "source": null,
+    "pricing": null,
+    "plans": null,
+    "description": "Discovers vulnerabilities for all components in your environment, filters out 85% non-exploitable vulnerabilities and creates a  remediation plan and open tickets to upgrade components that violate your security policy and/or patch automatically in CI.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Rezilion and CircleCI Integration Demo",
+        "url": "https://www.youtube.com/watch?v=OIhfnVKq-MU"
+      }
+    ],
     "wrapper": null
   },
   "rips": {
@@ -12711,6 +12909,31 @@
         "url": "https://marketplace.visualstudio.com/items?itemName=rome.rome"
       }
     ],
+    "wrapper": null
+  },
+  "roodi": {
+    "name": "Roodi",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "ruby"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/roodi/roodi",
+    "source": "https://github.com/roodi/roodi",
+    "pricing": null,
+    "plans": null,
+    "description": "Roodi stands for Ruby Object Oriented Design Inferometer. It parses your Ruby code and warns you about design issues you have based on the checks that it has configured.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
     "wrapper": null
   },
   "roslyn-analyzers": {
@@ -13584,6 +13807,47 @@
     ],
     "wrapper": null
   },
+  "semgrep-supply-chain": {
+    "name": "Semgrep Supply Chain",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "go",
+      "java",
+      "javascript",
+      "python",
+      "ruby",
+      "typescript"
+    ],
+    "other": [
+      "security"
+    ],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "service"
+    ],
+    "homepage": "https://semgrep.dev/products/semgrep-supply-chain",
+    "source": null,
+    "pricing": null,
+    "plans": null,
+    "description": "Quickly find and remediate high-priority security issues.  Semgrep Supply Chain prioritizes the 2% of vulnerabilities that are reachable from your code.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Reachability analysis in Semgrep Supply Chain",
+        "url": "https://www.youtube.com/watch?v=dzmiQXhVMAw"
+      },
+      {
+        "title": "It's time to ignore 98% of dependency alerts",
+        "url": "https://r2c.dev/blog/2022/introducing-semgrep-supply-chain/"
+      }
+    ],
+    "wrapper": null
+  },
   "sh": {
     "name": "sh",
     "categories": [
@@ -13984,18 +14248,20 @@
     "resources": null,
     "wrapper": null
   },
-  "snyk": {
-    "name": "Snyk",
+  "snyk-code": {
+    "name": "Snyk Code",
     "categories": [
       "linter"
     ],
     "languages": [
+      "csharp",
       "go",
       "java",
       "javascript",
       "php",
       "python",
-      "ruby"
+      "ruby",
+      "typescript"
     ],
     "other": [
       "container",
@@ -14012,10 +14278,19 @@
     "source": null,
     "pricing": null,
     "plans": null,
-    "description": "Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects).",
+    "description": "Snyk Code finds security vulnerabilities based on AI. Its speed of analysis allow us to  analyse your code in real time and deliver results when you hit the save button in your IDE.  Supported languages are Java, JavaScript, Python, PHP, C#, Go and TypeScript. Integrations with  GitHub, BitBucket and Gitlab. It is free to try and part of the Snyk platform also covering SCA,  containers and IaC.",
     "discussion": null,
     "deprecated": null,
-    "resources": null,
+    "resources": [
+      {
+        "title": "Product homepage",
+        "url": "https://snyk.io/product/snyk-code/"
+      },
+      {
+        "title": "Intro to Snyk Code Video",
+        "url": "https://www.youtube.com/watch?v=fNYf0fgWOFQ"
+      }
+    ],
     "wrapper": null
   },
   "sobelow": {
