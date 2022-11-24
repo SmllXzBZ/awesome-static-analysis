@@ -1403,6 +1403,31 @@
     "resources": null,
     "wrapper": null
   },
+  "cargo-breaking": {
+    "name": "cargo-breaking",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "rust"
+    ],
+    "other": [],
+    "licenses": [
+      "MPL-2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/iomentum/cargo-breaking",
+    "source": "https://github.com/iomentum/cargo-breaking",
+    "pricing": null,
+    "plans": null,
+    "description": "cargo-breaking compares a crate's public API between two different branches, shows what changed, and suggests the next version according to semver.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "wrapper": null
+  },
   "cargo-deny": {
     "name": "cargo-deny",
     "categories": [
@@ -1473,6 +1498,31 @@
     "pricing": null,
     "plans": null,
     "description": "Inspect Rust code without syntactic sugar to see what the compiler does behind the curtains.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "wrapper": null
+  },
+  "cargo-show-asm": {
+    "name": "cargo-show-asm",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "rust"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT / Apache 2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/pacak/cargo-show-asm",
+    "source": "https://github.com/pacak/cargo-show-asm",
+    "pricing": null,
+    "plans": null,
+    "description": "cargo subcommand showing the assembly, LLVM-IR and MIR generated for Rust code",
     "discussion": null,
     "deprecated": null,
     "resources": null,
