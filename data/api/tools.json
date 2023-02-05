@@ -2680,6 +2680,47 @@
     "resources": null,
     "wrapper": null
   },
+  "codecov": {
+    "name": "Codecov",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "ci"
+    ],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "service"
+    ],
+    "homepage": "https://about.codecov.io/",
+    "source": null,
+    "pricing": "https://about.codecov.io/pricing/",
+    "plans": {
+      "free": true,
+      "oss": true
+    },
+    "description": "Codecov is a company that provides code coverage tools for developers and engineering leaders  to gain visibility into their code coverage.\nThey offer flexible and unified reporting, seamless coverage insights, and robust coverage controls. Codecov supports over 20 languages and is CI/CD agnostic. Over 29,000 organizations and 1 million developers use Codecov. Codecov has recently joined Sentry.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Codecov Overview",
+        "url": "https://www.youtube.com/watch?v=wwFookaYHoo"
+      },
+      {
+        "title": "Codecov Onboarding 1: Account Creation",
+        "url": "https://www.youtube.com/watch?v=8xToLcchs4Y"
+      },
+      {
+        "title": "Codecov Github Tutorial/Demo",
+        "url": "https://docs.codecov.com/docs/github-tutorial"
+      }
+    ],
+    "wrapper": null
+  },
   "codefactor": {
     "name": "CodeFactor",
     "categories": [
@@ -4613,6 +4654,52 @@
       {
         "title": "Stavros Aronis - What does Dialyzer think about me? | Code BEAM STO 19",
         "url": "https://www.youtube.com/watch?v=Nxsw1jRE2A4&t=709s"
+      }
+    ],
+    "wrapper": null
+  },
+  "diffblue": {
+    "name": "Diffblue",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "java"
+    ],
+    "other": [
+      "ci"
+    ],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "service"
+    ],
+    "homepage": "https://www.diffblue.com/",
+    "source": null,
+    "pricing": "https://www.diffblue.com/pricing/",
+    "plans": {
+      "free": true
+    },
+    "description": "Diffblue is a software company that provides AI-powered code analysis and testing solutions for software development teams.\nIts technology helps developers automate testing, find bugs, and reduce manual labor in their software development processes. The company's main product, Diffblue Cover, uses AI to generate and run unit tests for Java code, helping to catch errors and improve code quality.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Diffblue Cover Overview",
+        "url": "https://www.youtube.com/watch?v=9vt1szlaAKw"
+      },
+      {
+        "title": "Codecov Github Tutorial/Demo",
+        "url": "https://docs.codecov.com/docs/github-tutorial"
+      },
+      {
+        "title": "Diffblue Cover in Eclipse",
+        "url": "https://www.youtube.com/watch?v=jiUgMs21NNE"
+      },
+      {
+        "title": "Diffblue Cover on a Pull Request",
+        "url": "https://www.youtube.com/watch?v=dhN-mbgOSMo"
       }
     ],
     "wrapper": null
@@ -10374,6 +10461,33 @@
     "pricing": null,
     "plans": null,
     "description": "Static analysis Lint-type tool to improve your OO Ruby code.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "wrapper": null
+  },
+  "perl-analyzer": {
+    "name": "Perl::Analyzer",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "perl"
+    ],
+    "other": [],
+    "licenses": [
+      "Artistic License (2.0)"
+    ],
+    "types": [
+      "cli",
+      "ide-plugin",
+      "service"
+    ],
+    "homepage": "https://technix.github.io/Perl-Analyzer/",
+    "source": "https://github.com/technix/Perl-Analyzer",
+    "pricing": null,
+    "plans": null,
+    "description": "Perl-Analyzer is a set of programs and modules that allow users to analyze and visualize Perl  codebases by providing information about namespaces and their relations, dependencies,  inheritance, and methods implemented, inherited, and redefined in packages,  as well as calls to methods from parent packages via SUPER. ",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -16619,7 +16733,6 @@
       "javascript",
       "php",
       "python",
-      "typescript",
       "vhdl",
       "vbnet"
     ],
