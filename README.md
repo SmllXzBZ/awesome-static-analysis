@@ -327,7 +327,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="coffeescript">CoffeeScript</h2>
 
 
-- [coffeelint](http://www.coffeelint.org) — A style checker that helps keep CoffeeScript code clean and consistent.
+- [coffeelint](https://coffeelint.github.io/) — A style checker that helps keep CoffeeScript code clean and consistent.
 
 
 <h2 id="coldfusion">ColdFusion</h2>
@@ -570,7 +570,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [forbidden-apis](https://github.com/policeman-tools/forbidden-apis) — Detects and forbids invocations of specific method/class/field (like reading from a text stream without a charset). Maven/Gradle/Ant compatible.
 
-- [google-java-format](https://github.com/google/google-java-format) — Google Style Reformat.
+- [google-java-format](https://github.com/google/google-java-format) — Reformats Java source code to comply with Google Java Style
 
 - [HuntBugs](https://github.com/amaembo/huntbugs) :warning: — Bytecode static analyzer tool based on Procyon Compiler Tools aimed to supersede FindBugs.
 
@@ -659,6 +659,9 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 - [detekt](https://detekt.github.io/detekt) — Static code analysis for Kotlin code.
 
 - [diktat](https://diktat.saveourtool.com) — Strict coding standard for Kotlin and a linter that detects and auto-fixes code smells.
+
+- [ktfmt](https://facebook.github.io/ktfmt/) — A program that reformats Kotlin source code to comply with the common community standard for Kotlin code conventions.
+A ktfmt IntelliJ plugin is available from the plugin repository. To install it, go to your IDE's settings and select the Plugins category. Click the Marketplace tab, search for the ktfmt plugin, and click the Install button.
 
 - [ktlint](https://ktlint.github.io) — An anti-bikeshedding Kotlin linter with built-in formatter.
 
@@ -820,6 +823,9 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 <h2 id="python">Python</h2>
 
 
+- [autopep8](https://pypi.org/project/autopep8/) — A tool that automatically formats Python code to conform to the PEP 8 style guide.
+It uses the pycodestyle utility to determine what parts of the code needs to be formatted.
+
 - [bandit](https://bandit.readthedocs.io/en/latest) — A tool to find common security issues in Python code.
 
 - [bellybutton](https://github.com/hchasestevens/bellybutton) — A linting engine supporting custom project-specific rules.
@@ -890,11 +896,14 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [vulture](https://github.com/jendrikseipp/vulture) — Find unused classes, functions and variables in Python code.
 
-- [wemake-python-styleguide](https://wemake-python-stylegui.de) — The strictest and most opinionated python linter ever.
+- [wemake-python-styleguide](https://wemake-python-styleguide.rtfd.io/) — The strictest and most opinionated python linter ever.
 
 - [wily](https://github.com/tonybaloney/wily) — A command-line tool for archiving, exploring and graphing the complexity of Python source code.
 
 - [xenon](https://xenon.readthedocs.io) — Monitor code complexity using [`radon`](https://github.com/rubik/radon).
+
+- [yapf](https://github.com/google/yapf) — A formatter for Python files created by Google
+YAPF follows a distinctive methodology, originating from the 'clang-format' tool created by Daniel Jasper. Essentially, the program reframes the code to the most suitable formatting that abides by the style guide, even if the original code already follows the style guide. This concept is similar to the Go programming language's 'gofmt' tool, which aims to put an end to debates about formatting by having the entire codebase of a project pass through YAPF whenever changes are made, thereby maintaining a consistent style throughout the project and eliminating the need to argue about style in every code review.
 
 
 <h2 id="r">R</h2>
@@ -1106,6 +1115,8 @@ It removes a feature of a dependency and then compiles the project to see if it 
 - [Angular ESLint](https://github.com/angular-eslint/angular-eslint#readme) — Linter for Angular projects
 
 - [Codelyzer](http://codelyzer.com) :warning: — A set of tslint rules for static code analysis of Angular 2 TypeScript projects.
+
+- [stc](https://stc.dudy.dev) — Speedy TypeScript type checker written in Rust
 
 - [tslint](https://palantir.github.io/tslint/) :warning: — TSLint has been deprecated as of 2019. Please see this issue for more details:  typescript-eslint is now your best option for linting TypeScript.
 TSLint is an extensible static analysis tool that checks TypeScript code for readability, maintainability,  and functionality errors. It is widely supported across modern editors & build systems and can be customized  with your own lint rules, configurations, and formatters.
@@ -1324,7 +1335,7 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 
 - [ShiftLeft](https://www.shiftleft.io) :copyright: — Identify vulnerabilities that are unique to your code base before they reach production. Leverages the Code Property Graph (CPG) to run its analyses concurrently in a single graph of graphs. Automatically finds business logic flaws in dev like hardcoded secrets and logic bombs
 
-- [ShiftLeft Scan](https://slscan.io) — Scan is a free open-source DevSecOps platform for detecting security issues in source code and dependencies. It supports a broad range of languages and CI/CD pipelines.
+- [ShiftLeft Scan](https://github.com/ShiftLeftSecurity/sast-scan) — Scan is a free open-source DevSecOps platform for detecting security issues in source code and dependencies. It supports a broad range of languages and CI/CD pipelines.
 
 - [shipshape](https://github.com/google/shipshape) :warning: — Static program analysis platform that allows custom analyzers to plug in through a common interface.
 
